@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/* imported a font named rubik from google fonts */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* used universal selector to set initial margin and padding to zero */
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background : linear-gradient(to bottom right, red, blue);
+    opacity: 0.8;
+}
+/*  container having gradient background */
+
+.inner-container {
+    background-color: #00b4d8;
+    height: 350px;
+    width: 600px;
+    position: absolute;
+    top: 140px;
+    left: 280px;
+    border-radius: 10px;
+
+}
+/*  container having skyblue background */
+
+.form-container {
+    height: 250px;
+    width: 400px;
+    background-color: aliceblue;
+    position: absolute;
+    top:50px ;
+    left: 100px;
+    border-radius: 10px;
+}
+/*  container containing form elements */
+
+h1 {
+    font-family: "rubik", Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #00b4d8 ;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+/* heading tag consisting of text "Login To Your Account" */
+
+input[type=text] {
+    width: 350px;
+    padding: 10px 15px;
+    margin: 8px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid grey;
+} 
+/* properties of text input */
+
+input[type=password]{
+    width: 350px;
+    padding: 10px 15px;
+    margin: 8px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+/* properties of password input */
+
+.login {
+    width: 350px;
+    padding: 10px 15px;
+    margin: 20px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: #0077b6;
+}
+/* properties applied to div containg Login text */
+
+p{
+    color: white;
+    font-family: "rubik", Times, serif;
+    text-align: center;
+}
+/* properties applied to text Login */
+
+.login:hover{
+    cursor: pointer;
+}
+/* properties for hovering on login div */
